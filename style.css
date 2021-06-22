@@ -60,7 +60,7 @@ header{
   text-align: center;
 }
 .topabout{
-  margin-bottom: 50px;
+  margin-bottom: 40px;
 }
 
 .side-left{
@@ -76,4 +76,9 @@ header{
 }
 .about1:last-child{
   margin-right: 0px;
+}
+.imgtag{
+  border-radius:50%;
+  width:350px;
+	height:350px;
 }
