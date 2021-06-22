@@ -53,12 +53,12 @@ ul.bar{
 .about{
   width: 100%;
   height: auto;
-  padding: 50px;
+  padding:20px 50px;
   text-align: center;
   border-top: dotted 0.01em#333333 ;
 }
 .topabout{
-  margin-bottom: 40px;
+  padding: 20px;
 }
 .big-box{
   display: flex;
@@ -120,6 +120,16 @@ ul.bar{
   }
   .about1{
     margin: auto;
+  }
+  .tabl{
+      width: 320px;
+      margin: 10px auto;
+  }
+  .side{
+    margin:0;
+  }
+  #portfolio{
+    padding: 0;
   }
 
 }
