@@ -49,7 +49,7 @@ ul.bar{
 }
 .about{
   width: 100%;
-  height: 520px;
+  height: auto;
   background-color: #DCDCDC	;
   padding: 50px;
   text-align: center;
@@ -82,4 +82,28 @@ ul.bar{
 }
 #portfolio{
   background-color: white;
+}
+@media screen and (max-width: 414px){ 
+  .top{
+    background-image: url(./img/top1.png);
+    height: 300px;
+  }
+  .big-box{
+    flex-flow: column !important;
+  }
+  .side-left{
+    width: 90%;
+    margin: 0 auto;
+  }
+  .side-right{
+    width: 100%;
+  }
+  .imgtag{
+    width: auto;
+    height: 300px;
+  }
+  .about1{
+    margin: auto;
+  }
+
 }
