@@ -63,19 +63,23 @@ ul.bar{
 .topabout{
   margin-bottom: 40px;
 }
-
+.big-box{
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+}
 .side-left{
   width: 30%;
   display: inline-block;
 }
 .side-right{
+  padding-top: 60px;
   width: 46%;
   display: inline-block;
+  text-align: left !important;
+
 }
 .about1{
-  margin-right: 60px;
-}
-.about1:last-child{
   margin: 0 0 0 50px;
 
 }
