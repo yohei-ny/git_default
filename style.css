@@ -45,6 +45,7 @@ ul.bar{
 	font-size: 20px;
 	color: #333;
 	line-height: 70px;
+  text-decoration: none;
 }
 .nav-list-item:hover{
   color: #FF8856;
@@ -58,7 +59,7 @@ ul.bar{
   border-top: dotted 0.01em#333333 ;
 }
 .topabout{
-  padding: 20px;
+  margin-bottom: 40px;
 }
 .big-box{
   display: flex;
