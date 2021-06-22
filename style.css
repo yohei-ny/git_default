@@ -55,6 +55,7 @@ ul.bar{
   height: auto;
   padding: 50px;
   text-align: center;
+  border-top: dotted 0.01em#333333 ;
 }
 .topabout{
   margin-bottom: 40px;
@@ -82,9 +83,9 @@ ul.bar{
   width:350px;
 	height:350px;
 }
-#portfolio{
+/* #portfolio{
   border-top: dotted 0.01em#333333 ;
-}
+} */
 .side{
   margin:0 auto;
 }
