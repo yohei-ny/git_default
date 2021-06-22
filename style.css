@@ -50,7 +50,6 @@ ul.bar{
 .about{
   width: 100%;
   height: auto;
-  background-color: #DCDCDC	;
   padding: 50px;
   text-align: center;
 }
@@ -81,12 +80,15 @@ ul.bar{
 	height:350px;
 }
 #portfolio{
-  background-color: white;
+  border-top: dotted 0.01em#333333 ;
 }
 @media screen and (max-width: 414px){ 
   .top{
     background-image: url(./img/top1.png);
     height: 300px;
+  }
+  .text{
+    padding-top: 100px;
   }
   .nav-list-item{
     margin:auto;
