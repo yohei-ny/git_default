@@ -85,6 +85,10 @@ ul.bar{
 #portfolio{
   border-top: dotted 0.01em#333333 ;
 }
+.side{
+  margin:0 auto;
+}
+
 @media screen and (max-width: 414px){ 
   .top{
     background-image: url(./img/top1.png);
