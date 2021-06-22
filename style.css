@@ -34,11 +34,12 @@ header{
   font-size: 30px;
 }
 
-.bar{
+ul.bar{
   display: flex;
   background-color:#F0F8FF	;
   height: 70px;
   justify-content: center;
+  margin-bottom: 0;
 }
 .nav-list-item{
 	list-style: none;
@@ -72,10 +73,11 @@ header{
   display: inline-block;
 }
 .about1{
-  margin-right: 50px;
+  margin-right: 60px;
 }
 .about1:last-child{
-  margin-right: 0px;
+  margin: 0 0 0 50px;
+
 }
 .imgtag{
   border-radius:50%;
