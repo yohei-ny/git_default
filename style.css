@@ -34,6 +34,9 @@ ul.bar{
   height: 70px;
   justify-content: center;
   margin-bottom: 0;
+  border-top: dotted 0.01em black ;
+  border-bottom:  dotted 0.01em black ;
+
 }
 .nav-list-item{
 	list-style: none;
@@ -85,6 +88,9 @@ ul.bar{
 @media screen and (max-width: 414px){ 
   .top{
     background-image: url(./img/top1.png);
+    height: 300px;
+  }
+  .top-main{
     height: 300px;
   }
   .text{
