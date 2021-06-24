@@ -64,9 +64,7 @@ ul.bar{
   padding: 20px;
 }
 .big-box{
-  display: flex;
-  justify-content: center;
-  margin: 0 auto;
+  display: none;
 }
 .side-left{
   width: 30%;
@@ -95,6 +93,11 @@ ul.bar{
 .side{
   margin:0 auto;
 }
+.js-fade{
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+}
 
 @media screen and (max-width: 414px){ 
   .top{
@@ -111,6 +114,7 @@ ul.bar{
     margin:auto;
   }
   .big-box{
+    display: none;
     flex-flow: column !important;
   }
   .side-left{
@@ -145,6 +149,11 @@ ul.bar{
    #Contact{
     padding: 0;
   }
+  .js-fade{
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+}
 
 }
 

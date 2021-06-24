@@ -1,13 +1,13 @@
 const scrollEvent = function () {
         // スクロール量の取得
-
-        
     const scrollValue = window.pageYOffset;
 
-    const target = document.getElementsByClassName("about");
+    const target = document.getElementsByClassName("big-box");
 
 
     const windowHeight = window.innerHeight;
+    let value = 100;
+
 
     // console.log('画面の高さ', window.innerHeight);
     document.addEventListener('scroll',function(){
